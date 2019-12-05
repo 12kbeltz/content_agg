@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
+import re
 
 # used to clean up image link
 def splitter(string):
